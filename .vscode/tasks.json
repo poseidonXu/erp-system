@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "初始化数据库 (建表+种子数据)",
+      "type": "shell",
+      "command": "python ${workspaceFolder}/database/init_db.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "启动 ERP 服务",
+      "type": "shell",
+      "command": "python app.py",
+      "options": { "cwd": "${workspaceFolder}/backend" },
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "检查依赖",
+      "type": "shell",
+      "command": "python -m pip install -r ${workspaceFolder}/requirements.txt",
+      "problemMatcher": []
+    }
+  ]
+}

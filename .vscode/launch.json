@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "启动 ERP 后端 (Flask)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/backend/app.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/backend",
+      "justMyCode": false,
+      "env": {
+        "FLASK_ENV": "development",
+        "ERP_DB_HOST": "127.0.0.1",
+        "ERP_DB_PORT": "5866",
+        "ERP_DB_USER": "highgo",
+        "ERP_DB_PASSWORD": "highgo5866",
+        "ERP_DB_NAME": "highgo"
+      }
+    }
+  ]
+}

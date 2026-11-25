@@ -1,0 +1,4 @@
+# 华晟 ERP 后端依赖
+Flask>=3.0
+flask-cors>=4.0
+psycopg2-binary>=2.9

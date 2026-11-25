@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+server.log
+
+# 数据库本地残留
+*.pid
+
+# IDE 个人配置（保留推荐配置，忽略本地状态）
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# 系统文件
+.DS_Store
+Thumbs.db

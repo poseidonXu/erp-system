@@ -1,0 +1,18 @@
+{
+  "python.defaultInterpreterPath": "python",
+  "python.terminal.activateEnvironment": true,
+  "files.encoding": "utf8",
+  "files.eol": "\n",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.tabSize": 4
+  },
+  "[sql]": {
+    "editor.tabSize": 2
+  },
+  "editor.formatOnSave": false,
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  }
+}
