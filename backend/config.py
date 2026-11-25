@@ -6,7 +6,8 @@ import os
 DB_HOST = os.getenv("ERP_DB_HOST", "127.0.0.1")
 DB_PORT = int(os.getenv("ERP_DB_PORT", "5866"))
 DB_USER = os.getenv("ERP_DB_USER", "highgo")
-DB_PASSWORD = os.getenv("ERP_DB_PASSWORD", "")  # 请通过环境变量设置，勿硬编码入库
+# 本地演示库的教材示例密码；部署时请设置环境变量 ERP_DB_PASSWORD 覆盖
+DB_PASSWORD = os.getenv("ERP_DB_PASSWORD", "highgo5866")
 DB_NAME = os.getenv("ERP_DB_NAME", "highgo")
 DB_SCHEMA = "erp"
 
